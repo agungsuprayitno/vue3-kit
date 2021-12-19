@@ -1,0 +1,26 @@
+{
+  "name": "vue3-kit",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "gun": "^0.2020.1235",
+    "pinia": "^2.0.6",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.3.0",
+    "vue": "^3.2.16",
+    "vue-axios": "^3.4.0",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
