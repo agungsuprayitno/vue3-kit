@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import 'bootstrap'
-import AppHeader from './components/layouts/AppHeader.vue'
-import AppFooter from './components/layouts/AppFooter.vue'
+import AppHeader from '@/components/layouts/AppHeader.vue'
+import AppFooter from '@/components/layouts/AppFooter.vue'
 </script>
 
 <template>
