@@ -4,8 +4,10 @@ import axios from "axios"
     // install(Vue) {
         axios.defaults.baseURL = "http://localhost:8000"
         axios.defaults.withCredentials = true
-        axios.defaults.headers['Access-Control-Allow-Origin'] = "*"
-        axios.defaults.headers['Authorization'] = "Bearer " + localStorage.getItem('access_token')
+        // axios.defaults.headers['Access-Control-Allow-Origin'] = "*"
+        // axios.defaults.headers['Authorization'] = "Bearer " + localStorage.getItem('access_token')
+        axios.defaults.headers.common['Access-Control-Allow-Origin'] = "*"
+        axios.defaults.headers.common.Authorization = "Bearer " + localStorage.getItem('access_token')
 
         axios.interceptors.response.use(function (response) {
             return response
